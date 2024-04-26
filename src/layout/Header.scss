@@ -1,0 +1,223 @@
+
+.header-one {
+  background-color: #0b3866;
+  width: 100%;
+  height: 70px;
+  border-radius: 37px 0px 0px 0px;
+  background-color: white;
+}
+.detail{
+  margin-left: 10px;
+}
+.footer {
+  background-color: #ffffff;
+  border-bottom-left-radius: 40px 40px;
+  width: 100%;
+  margin-top: 300px;
+  padding: 10px;
+  font-family: "Fredoka";
+}
+
+.side {
+  background-color: #0b3866;
+  width: 70px;
+  position: fixed;
+
+}
+.side .active {
+  background-color: #fe7720;
+  border-radius: 5px;
+}
+.menu {
+  display: inline;
+  width: Hug (1, 180px) px;
+  height: Hug (130px) px;
+  top: 172px;
+  left: 126px;
+  gap: 32px;
+  opacity: 0px;
+  font-family: "Fredoka";
+  
+}
+
+.menus input {
+  display: inline-block;
+  width: 380px;
+  height: 44px;
+  top: 27px;
+  padding: 12px 0px 0px 0px;
+  gap: 89px;
+  border-radius: 8px;
+  border: 1px solid rgb(180, 179, 179);
+  font-family: "Fredoka";
+}
+.Addcoustomer {
+  display: inline-flex;
+  gap: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: "Fredoka";
+  height: 20px;
+  width: 500px;
+}
+.Addmenus input {
+  width: 380px;
+  height: 44px;
+  top: 27px;
+  padding: 12px 0px 0px 0px;
+  gap: 89px;
+  border-radius: 8px;
+  border: 1px solid rgb(168, 167, 167);
+ 
+ 
+  font-family: "Fredoka";
+}
+.form-select {
+  width: 380px;
+  height: 44px;
+  top: 29px;
+  padding: 12px 0px 0px 0px;
+  gap: 89px;
+  border-radius: 8px;
+ 
+  border: 1px solid rgb(168, 167, 167);
+
+ 
+  font-family: "Fredoka";
+}
+.page {
+  width: 1322px;
+  height: 186px;
+  top: 144px;
+  left: 94px;
+  margin-left: 10px;
+  border-radius: 8px 8px 8px 8px;
+  margin-top: 50px;
+  font-family: "Fredoka";
+  input{
+    padding-left: 10px;
+  }
+}
+/* //check */
+.page-one { 
+  width: 1320px;
+  height: 376px;
+  // top: 370px;
+  // left: 94px;
+  border-radius: 8px 8px 8px 8px;
+  margin-left: 20px;
+  font-family: "Fredoka";
+  input{
+    padding-left: 10px;
+  }
+}
+.primary-btn {
+  background-color: "#FFFFFF";
+  color: #fe7720;
+  border: 1px solid #fe7720;
+  border-radius: 12px;
+  height: 44px;
+  width: 120px;
+  font-family: "Fredoka";
+}
+.secondary-btn {
+  background-color: "#FFFFFF";
+  color: #fe7720;
+  border: 1px solid #fe7720;
+  border-radius: 12px;
+  height: 40px;
+  width: 120px;
+  margin-right: 20px;
+  font-family: "Fredoka";
+}
+.h-body {
+  background:#F5F5F5;
+  height: 100%;
+  font-family: "Fredoka";
+}
+.f-last {
+  background-color: #0b3866;
+}
+.save-btn {
+  background-color: rgba(254, 119, 32, 1);
+  color: white;
+  font-family: "Fredoka";
+}
+
+  .search-bar {
+    position: relative;
+    display: inline-block;
+    right: 30px;
+  
+  }
+  
+  .search-bar img {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: auto; 
+  }
+  
+  .search-bar input  {
+    padding-left: 30px;
+    width:290px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+   
+  }
+  .search-bar input::placeholder {
+   
+    padding-left: 30px;
+  }
+  .secondary-button {
+    background-color: "#FFFFFF";
+    color: #fe7720;
+    border: 1px solid #fe7720;
+    border-radius: 12px;
+    width: 100px;
+    
+ 
+  
+    font-family: "Fredoka";
+  }
+
+.single-view {
+  width: 1322px;
+  height: 115px;
+  top: 208px;
+  left: 94px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+  border-radius: 8px;
+  background-color: #ffffff;
+  img {
+    background-color: #ffffff;
+    top: 500px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+}
+.txt-box {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.general {
+  width: 1325px;
+  height: Hug 32px;
+  top: 153px;
+  left: 94px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.add-new {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}

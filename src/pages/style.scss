@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+.login-image {
+    font-family: "Fredoka";
+    background-image: url(../assets/image/Background.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+
+    
+  }
+  
+  .login {
+    margin-top: 60px;
+    margin: auto;
+  
+  }
+  
+  .Merchant-Login {
+    margin-top: 200px;
+    color: white;
+    width: 400px;
+   
+  }
+  
+  .form-page {
+    margin-bottom: 10px;
+  }
+  
+  .form-page input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .page-two {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .page-two input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 8px;
+    background: #fe7720;
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .sign-up {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
