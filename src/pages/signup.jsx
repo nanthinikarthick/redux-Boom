@@ -1,8 +1,5 @@
 
 import React, { useState } from 'react';
-
-
-
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import 'react-phone-number-input/style.css';
 import BoomImage from "../assets/image/boom.svg";
@@ -123,6 +120,10 @@ export default function Signup({ onLogin }) {
     setErrors(newErrors);
     return valid;
   };
+  const handleNavigation = () =>
+  {
+    navigate('/')
+  }
   return (
     <>
       <div className="main" style={{ backgroundImage: `url(${BackgroundImage})` }}>
@@ -198,13 +199,17 @@ export default function Signup({ onLogin }) {
                 </p>
               )}
               </div>
-              <button className="btn" type="button" onClick={handleFunction}>Register</button>
+              <button className="btn" type="button" onClick ={handleFunction}>Register</button>
           
-            <div className="sign-up"><p>Already have an account? <span style={{ color: '#FE7720' }}>Login Now</span></p></div>
+            <div className="sign-up">
+              <p>Already have an account? <span  onClick={handleNavigation} style={{ color: '#FE7720' }}
+                >Login Now</span>
+              </p>
+              </div>
             </form>
             <p style={{ fontSize: "13px", textAlign: "center" }}>
             By creating an account, you agree the{" "}
-            <span style={{ color: "#FE7720", cursor: "pointer" }}>
+            <span  style={{ color: "#FE7720", cursor: "pointer" }}>
               Terms and conditions
             </span>
           </p>

@@ -8,29 +8,12 @@ import MainLayout from "./navigate/main";
 function App() {
 
   return (
+   
     <BrowserRouter>
     <MainLayout/>
-      {/* {!isLoggedIn && (
-        <Routes>
-          
-        </Routes>
-      )}
-      {isLoggedIn && (
-        <div className=" content">
-          <div className=" " style={{ position: "fixed" }}>
-            <Sidebar />
-          </div>
-          <div className="body-wrapper" style={{ marginLeft: "70px" }}>
-            <div className="head-wrapper">
-              <Header />
-            </div>
-            <section style={{ background: "gainsboro" }}>
-             
-            </section>
-          </div>
-        </div>
-      )} */}
+    
     </BrowserRouter>
+
   );
 }
 

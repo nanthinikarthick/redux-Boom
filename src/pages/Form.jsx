@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { useDispatch } from "react-redux";
-
 import { postAction, updateAction } from "../redux/action/action";
-
 import Vector from "../assets/image/Vector.svg";
 import Dropdown from "../COMPONENT/dropdwon/Dropdown";
 import TextField from "../COMPONENT/textfield/Textfield";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Country = [
   "Algeria",
